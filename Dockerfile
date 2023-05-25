@@ -4,7 +4,7 @@ WORKDIR /react-app
 
 COPY ./package.json /react-app
 
-RUN ls -alh
+RUN ls -al
 
 RUN npm install
 
